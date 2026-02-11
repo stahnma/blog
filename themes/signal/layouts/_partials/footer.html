@@ -1,0 +1,8 @@
+<div class="container">
+  <span class="footer-copy">&copy; {{ now.Year }} {{ site.Params.author }}</span>
+  <div class="footer-social">
+    {{ with site.Params.socialGithub }}<a href="{{ . }}" target="_blank" rel="noopener">GitHub</a>{{ end }}
+    {{ with site.Params.socialLinkedin }}<a href="{{ . }}" target="_blank" rel="noopener">LinkedIn</a>{{ end }}
+    {{ with site.Params.socialTwitter }}<a href="{{ . }}" target="_blank" rel="noopener">Twitter</a>{{ end }}
+  </div>
+</div>

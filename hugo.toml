@@ -1,0 +1,50 @@
+baseURL = 'https://example.com/'
+languageCode = 'en-us'
+title = 'Michael Stahnke'
+theme = 'signal'
+
+[params]
+  description = "VP of Engineering. Builder of teams, products, and the occasional strong opinion."
+  tagline = "Engineering Leadership / Product / Growth"
+  author = "Michael Stahnke"
+  email = "stahnma@example.com"
+  socialGithub = "https://github.com/stahnma"
+  socialLinkedin = "https://linkedin.com/in/stahnma"
+  socialTwitter = "https://twitter.com/stahnma"
+
+[menu]
+  [[menu.main]]
+    name = "Writing"
+    url = "/blog/"
+    weight = 1
+  [[menu.main]]
+    name = "Talks"
+    url = "/talks/"
+    weight = 2
+  [[menu.main]]
+    name = "Resume"
+    url = "/resume/"
+    weight = 3
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 4
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    style = 'dracula'
+    lineNos = false
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[pagination]
+  pagerSize = 10
+
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML", "RSS"]

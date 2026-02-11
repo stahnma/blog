@@ -1,0 +1,27 @@
+{{ define "main" }}
+<section class="section-page">
+  <div class="container">
+    <h1 class="section-title">Writing</h1>
+    {{ with .Content }}<div class="section-description">{{ . }}</div>{{ end }}
+
+    <ul class="post-list">
+      {{ range .Pages }}
+      <li class="post-card">
+        <div>
+          <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+          <p class="post-card-excerpt">{{ .Summary | plainify | truncate 160 }}</p>
+          {{ with .Params.tags }}
+          <div class="post-card-tags">
+            {{ range first 3 . }}<a href="{{ "/tags/" | relURL }}{{ . | urlize }}/" class="tag">{{ . }}</a>{{ end }}
+          </div>
+          {{ end }}
+        </div>
+        <span class="post-card-meta">{{ .Date | time.Format "Jan 2006" }}</span>
+      </li>
+      {{ end }}
+    </ul>
+
+    {{ template "_internal/pagination.html" . }}
+  </div>
+</section>
+{{ end }}

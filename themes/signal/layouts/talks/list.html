@@ -1,0 +1,23 @@
+{{ define "main" }}
+<section class="section-page">
+  <div class="container">
+    <h1 class="section-title">Talks & Presentations</h1>
+    {{ with .Content }}<div class="section-description">{{ . }}</div>{{ end }}
+
+    <div class="talks-grid">
+      {{ range .Pages }}
+      <div class="talk-card">
+        <div class="talk-year">{{ .Date | time.Format "2006" }}</div>
+        <h3><a href="{{ with .Params.slides }}{{ . }}{{ else }}{{ .RelPermalink }}{{ end }}">{{ .Title }}</a></h3>
+        <div class="talk-venue">{{ .Params.venue }}</div>
+        <div class="talk-links">
+          {{ with .Params.slides }}<a href="{{ . }}" target="_blank">Slides</a>{{ end }}
+          {{ with .Params.video }}<a href="{{ . }}" target="_blank">Video</a>{{ end }}
+          {{ with .Params.blog }}<a href="{{ . }}">Write-up</a>{{ end }}
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}

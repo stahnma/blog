@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="site-brand">
+    <a href="{{ "/" | relURL }}" class="site-title">
+      <span class="site-title-marker"></span>{{ site.Title }}
+    </a>
+  </div>
+  <button class="nav-toggle" aria-label="Toggle navigation" onclick="document.querySelector('.site-nav').classList.toggle('open')">
+    Menu
+  </button>
+  <nav class="site-nav" role="navigation">
+    {{ range site.Menus.main }}
+      <a href="{{ .URL | relURL }}"{{ if $.IsMenuCurrent "main" . }} class="active"{{ end }}>{{ .Name }}</a>
+    {{ end }}
+  </nav>
+</div>

@@ -1,0 +1,17 @@
+{{ define "main" }}
+<article class="page-single">
+  <div class="container">
+    <header class="page-header">
+      <h1>{{ .Title }}</h1>
+      {{ with .Params.venue }}<p class="section-description">{{ . }} &middot; {{ $.Date | time.Format "January 2006" }}</p>{{ end }}
+    </header>
+    <div class="page-content">
+      {{ .Content }}
+      <div class="talk-links" style="margin-top: 2rem;">
+        {{ with .Params.slides }}<a href="{{ . }}" target="_blank">View Slides</a>{{ end }}
+        {{ with .Params.video }}<a href="{{ . }}" target="_blank">Watch Video</a>{{ end }}
+      </div>
+    </div>
+  </div>
+</article>
+{{ end }}

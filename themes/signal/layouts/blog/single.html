@@ -1,0 +1,30 @@
+{{ define "main" }}
+<article class="post-single">
+  <div class="container">
+    <header class="post-header">
+      <div class="post-meta">
+        <time datetime="{{ .Date | time.Format "2006-01-02" }}">{{ .Date | time.Format "January 2, 2006" }}</time>
+        {{ with .Params.categories }}
+          &middot;
+          {{ range first 1 . }}{{ . }}{{ end }}
+        {{ end }}
+        {{ if .ReadingTime }}
+          &middot; {{ .ReadingTime }} min read
+        {{ end }}
+      </div>
+      <h1>{{ .Title }}</h1>
+      {{ with .Params.subtitle }}<p class="post-subtitle">{{ . }}</p>{{ end }}
+    </header>
+    <div class="post-content">
+      {{ .Content }}
+    </div>
+    {{ with .Params.tags }}
+    <footer class="post-footer">
+      <div class="post-footer-tags">
+        {{ range . }}<a href="{{ "/tags/" | relURL }}{{ . | urlize }}/" class="tag">{{ . }}</a>{{ end }}
+      </div>
+    </footer>
+    {{ end }}
+  </div>
+</article>
+{{ end }}

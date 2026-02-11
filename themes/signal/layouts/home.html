@@ -1,0 +1,39 @@
+{{ define "main" }}
+<section class="hero">
+  <div class="container">
+    <span class="hero-label">{{ site.Params.tagline }}</span>
+    <h1>Building things that matter, leading the people who build them.</h1>
+    <p class="hero-description">{{ site.Params.description }}</p>
+    <div class="hero-links">
+      <a href="/blog/" class="primary">Read the blog</a>
+      <a href="/talks/">Browse talks</a>
+    </div>
+  </div>
+</section>
+
+{{ $posts := where site.RegularPages "Section" "blog" }}
+{{ if $posts }}
+<section class="container">
+  <div class="section-header">
+    <h2>Recent Writing</h2>
+    <a href="/blog/">View all &rarr;</a>
+  </div>
+  <ul class="post-list">
+    {{ range first 5 $posts }}
+    <li class="post-card">
+      <div>
+        <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+        <p class="post-card-excerpt">{{ .Summary | plainify | truncate 160 }}</p>
+        {{ with .Params.tags }}
+        <div class="post-card-tags">
+          {{ range first 3 . }}<a href="{{ "/tags/" | relURL }}{{ . | urlize }}/" class="tag">{{ . }}</a>{{ end }}
+        </div>
+        {{ end }}
+      </div>
+      <span class="post-card-meta">{{ .Date | time.Format "Jan 2006" }}</span>
+    </li>
+    {{ end }}
+  </ul>
+</section>
+{{ end }}
+{{ end }}
