@@ -5,6 +5,9 @@
     "install": {
       "hugo": {
         "pkg-path": "hugo"
+      },
+      "poppler_utils": {
+        "pkg-path": "poppler_utils"
       }
     },
     "hook": {},
@@ -15,27 +18,27 @@
     {
       "attr_path": "hugo",
       "broken": false,
-      "derivation": "/nix/store/qi23zkhmgh153s7cr2xmjqi1ykby052y-hugo-0.155.2.drv",
+      "derivation": "/nix/store/fsqyhhjc04x4yd7hh6y79lhh8jp19qby-hugo-0.151.2.drv",
       "description": "Fast and modern static website engine",
       "install_id": "hugo",
       "license": "Apache-2.0",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=d6c71932130818840fc8fe9509cf50be8c64634f",
-      "name": "hugo-0.155.2",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=6a08e6bb4e46ff7fcbb53d409b253f6bad8a28ce",
+      "name": "hugo-0.151.2",
       "pname": "hugo",
-      "rev": "d6c71932130818840fc8fe9509cf50be8c64634f",
-      "rev_count": 942779,
-      "rev_date": "2026-02-08T14:52:16Z",
-      "scrape_date": "2026-02-09T04:38:43.147024Z",
+      "rev": "6a08e6bb4e46ff7fcbb53d409b253f6bad8a28ce",
+      "rev_count": 883951,
+      "rev_date": "2025-10-25T06:24:58Z",
+      "scrape_date": "2025-10-27T02:08:29.341364Z",
       "stabilities": [
         "unstable"
       ],
       "unfree": false,
-      "version": "0.155.2",
+      "version": "0.151.2",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/2dgdnk2wyhpqjfab58qrwa26idl9rzql-hugo-0.155.2"
+        "out": "/nix/store/kjjsylynr6a0xxjh00b6lxqcsbcc15v2-hugo-0.151.2"
       },
       "system": "aarch64-darwin",
       "group": "toplevel",
@@ -44,27 +47,27 @@
     {
       "attr_path": "hugo",
       "broken": false,
-      "derivation": "/nix/store/kv6mwh7l02r2g4kscmh1dam3idj84l40-hugo-0.155.2.drv",
+      "derivation": "/nix/store/scbhlh2mkkddlf5qlsqlb6sjj5fzx8bv-hugo-0.151.2.drv",
       "description": "Fast and modern static website engine",
       "install_id": "hugo",
       "license": "Apache-2.0",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=d6c71932130818840fc8fe9509cf50be8c64634f",
-      "name": "hugo-0.155.2",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=6a08e6bb4e46ff7fcbb53d409b253f6bad8a28ce",
+      "name": "hugo-0.151.2",
       "pname": "hugo",
-      "rev": "d6c71932130818840fc8fe9509cf50be8c64634f",
-      "rev_count": 942779,
-      "rev_date": "2026-02-08T14:52:16Z",
-      "scrape_date": "2026-02-09T05:10:54.619944Z",
+      "rev": "6a08e6bb4e46ff7fcbb53d409b253f6bad8a28ce",
+      "rev_count": 883951,
+      "rev_date": "2025-10-25T06:24:58Z",
+      "scrape_date": "2025-10-27T02:18:44.912484Z",
       "stabilities": [
         "unstable"
       ],
       "unfree": false,
-      "version": "0.155.2",
+      "version": "0.151.2",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/aaramp6rfyfg0vv6zmf3g6rl0n7a6mwh-hugo-0.155.2"
+        "out": "/nix/store/3xn79jq72d5a6wyxbqy332mscqw80x7b-hugo-0.151.2"
       },
       "system": "aarch64-linux",
       "group": "toplevel",
@@ -73,27 +76,27 @@
     {
       "attr_path": "hugo",
       "broken": false,
-      "derivation": "/nix/store/nm0djh098ljkz3nqzv4bkiccgb9bw4bi-hugo-0.155.2.drv",
+      "derivation": "/nix/store/ynkm0cwyxidywvasz7mdlfl7mwbv84fx-hugo-0.151.2.drv",
       "description": "Fast and modern static website engine",
       "install_id": "hugo",
       "license": "Apache-2.0",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=d6c71932130818840fc8fe9509cf50be8c64634f",
-      "name": "hugo-0.155.2",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=6a08e6bb4e46ff7fcbb53d409b253f6bad8a28ce",
+      "name": "hugo-0.151.2",
       "pname": "hugo",
-      "rev": "d6c71932130818840fc8fe9509cf50be8c64634f",
-      "rev_count": 942779,
-      "rev_date": "2026-02-08T14:52:16Z",
-      "scrape_date": "2026-02-09T05:44:28.586696Z",
+      "rev": "6a08e6bb4e46ff7fcbb53d409b253f6bad8a28ce",
+      "rev_count": 883951,
+      "rev_date": "2025-10-25T06:24:58Z",
+      "scrape_date": "2025-10-27T02:29:35.445439Z",
       "stabilities": [
         "unstable"
       ],
       "unfree": false,
-      "version": "0.155.2",
+      "version": "0.151.2",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/y8nrpj6azjj0llagd9cnqhb03bic7g7r-hugo-0.155.2"
+        "out": "/nix/store/87m6q2291kb3qyznsla5mxjgs2j4rxwb-hugo-0.151.2"
       },
       "system": "x86_64-darwin",
       "group": "toplevel",
@@ -102,27 +105,147 @@
     {
       "attr_path": "hugo",
       "broken": false,
-      "derivation": "/nix/store/kinsdz3yl5kgz80zzmbz9gi3wyfncpmk-hugo-0.155.2.drv",
+      "derivation": "/nix/store/1ccr8hrnza87kdn4i3z8cssnvdbcwc1r-hugo-0.151.2.drv",
       "description": "Fast and modern static website engine",
       "install_id": "hugo",
       "license": "Apache-2.0",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=d6c71932130818840fc8fe9509cf50be8c64634f",
-      "name": "hugo-0.155.2",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=6a08e6bb4e46ff7fcbb53d409b253f6bad8a28ce",
+      "name": "hugo-0.151.2",
       "pname": "hugo",
-      "rev": "d6c71932130818840fc8fe9509cf50be8c64634f",
-      "rev_count": 942779,
-      "rev_date": "2026-02-08T14:52:16Z",
-      "scrape_date": "2026-02-09T06:20:35.956415Z",
+      "rev": "6a08e6bb4e46ff7fcbb53d409b253f6bad8a28ce",
+      "rev_count": 883951,
+      "rev_date": "2025-10-25T06:24:58Z",
+      "scrape_date": "2025-10-27T03:01:14.628511Z",
       "stabilities": [
         "unstable"
       ],
       "unfree": false,
-      "version": "0.155.2",
+      "version": "0.151.2",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/s819ahpkala05fpw46dsjwy3qgfvv5nf-hugo-0.155.2"
+        "out": "/nix/store/01wfp3sw4y68z3dp397d7x0mqmmv4b87-hugo-0.151.2"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "poppler_utils",
+      "broken": false,
+      "derivation": "/nix/store/i0v7x5w1r13ba4sj354xbk71pasf4ks5-poppler-utils-25.07.0.drv",
+      "description": "PDF rendering library",
+      "install_id": "poppler_utils",
+      "license": "[ GPL-2.0-or-later ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=6a08e6bb4e46ff7fcbb53d409b253f6bad8a28ce",
+      "name": "poppler-utils-25.07.0",
+      "pname": "poppler_utils",
+      "rev": "6a08e6bb4e46ff7fcbb53d409b253f6bad8a28ce",
+      "rev_count": 883951,
+      "rev_date": "2025-10-25T06:24:58Z",
+      "scrape_date": "2025-10-27T02:08:52.279520Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "25.07.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dev": "/nix/store/sd1r33z9wwssbwkimqlfih6jkvg5ihv3-poppler-utils-25.07.0-dev",
+        "out": "/nix/store/1d9c58v4klvbz3d4p0g3lxcqrbqaikay-poppler-utils-25.07.0"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "poppler_utils",
+      "broken": false,
+      "derivation": "/nix/store/hmd9hkvh2rfp4r5s3qay7xldhq1nar59-poppler-utils-25.07.0.drv",
+      "description": "PDF rendering library",
+      "install_id": "poppler_utils",
+      "license": "[ GPL-2.0-or-later ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=6a08e6bb4e46ff7fcbb53d409b253f6bad8a28ce",
+      "name": "poppler-utils-25.07.0",
+      "pname": "poppler_utils",
+      "rev": "6a08e6bb4e46ff7fcbb53d409b253f6bad8a28ce",
+      "rev_count": 883951,
+      "rev_date": "2025-10-25T06:24:58Z",
+      "scrape_date": "2025-10-27T02:19:23.923539Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "25.07.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dev": "/nix/store/zqx4lr7gap668plpilwi9g6szn82akh1-poppler-utils-25.07.0-dev",
+        "out": "/nix/store/bmyknqhv3p4pq5g3klrlnxp2zr60gvaa-poppler-utils-25.07.0"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "poppler_utils",
+      "broken": false,
+      "derivation": "/nix/store/isx8ili2prscla9in61r69v4dadsv5z0-poppler-utils-25.07.0.drv",
+      "description": "PDF rendering library",
+      "install_id": "poppler_utils",
+      "license": "[ GPL-2.0-or-later ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=6a08e6bb4e46ff7fcbb53d409b253f6bad8a28ce",
+      "name": "poppler-utils-25.07.0",
+      "pname": "poppler_utils",
+      "rev": "6a08e6bb4e46ff7fcbb53d409b253f6bad8a28ce",
+      "rev_count": 883951,
+      "rev_date": "2025-10-25T06:24:58Z",
+      "scrape_date": "2025-10-27T02:29:57.841870Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "25.07.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dev": "/nix/store/bzpd854k47z971dfh7h3ygrgfpc754hc-poppler-utils-25.07.0-dev",
+        "out": "/nix/store/vmpxv0d5wa2434xdpcc6vk4mjc894vmr-poppler-utils-25.07.0"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "poppler_utils",
+      "broken": false,
+      "derivation": "/nix/store/v6wrbkikd1580chhdwjsmwpqnqpdivj5-poppler-utils-25.07.0.drv",
+      "description": "PDF rendering library",
+      "install_id": "poppler_utils",
+      "license": "[ GPL-2.0-or-later ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=6a08e6bb4e46ff7fcbb53d409b253f6bad8a28ce",
+      "name": "poppler-utils-25.07.0",
+      "pname": "poppler_utils",
+      "rev": "6a08e6bb4e46ff7fcbb53d409b253f6bad8a28ce",
+      "rev_count": 883951,
+      "rev_date": "2025-10-25T06:24:58Z",
+      "scrape_date": "2025-10-27T03:01:56.815685Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "25.07.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dev": "/nix/store/8k7wsrfszf92vw771z0jqrl4khk84xlc-poppler-utils-25.07.0-dev",
+        "out": "/nix/store/ir1vajffz7icwrji4fklhlbqxdd8bgjq-poppler-utils-25.07.0"
       },
       "system": "x86_64-linux",
       "group": "toplevel",
