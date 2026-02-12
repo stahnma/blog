@@ -5,8 +5,8 @@
     <h1>Building things that matter, leading the people who build them.</h1>
     <p class="hero-description">{{ site.Params.description }}</p>
     <div class="hero-links">
-      <a href="/blog/" class="primary">Read the blog</a>
-      <a href="/talks/">Browse talks</a>
+      <a href="{{ "/blog/" | relURL }}" class="primary">Read the blog</a>
+      <a href="{{ "/talks/" | relURL }}">Browse talks</a>
     </div>
   </div>
 </section>
@@ -16,7 +16,7 @@
 <section class="container">
   <div class="section-header">
     <h2>Recent Writing</h2>
-    <a href="/blog/">View all &rarr;</a>
+    <a href="{{ "/blog/" | relURL }}">View all &rarr;</a>
   </div>
   <ul class="post-list">
     {{ range first 5 $posts }}

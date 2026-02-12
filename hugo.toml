@@ -2,6 +2,7 @@ baseURL = 'https://example.com/'
 languageCode = 'en-us'
 title = 'Michael Stahnke'
 theme = 'signal'
+canonifyURLs = true
 
 [params]
   description = "VP of Engineering. Builder of teams, products, and the occasional strong opinion."
@@ -44,6 +45,9 @@ theme = 'signal'
 
 [pagination]
   pagerSize = 10
+
+[permalinks]
+  blog = "/:filename/"
 
 [outputs]
   home = ["HTML", "RSS"]
