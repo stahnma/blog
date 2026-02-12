@@ -1,0 +1,132 @@
+{
+  "lockfile-version": 1,
+  "manifest": {
+    "version": 1,
+    "install": {
+      "hugo": {
+        "pkg-path": "hugo"
+      }
+    },
+    "hook": {},
+    "profile": {},
+    "options": {}
+  },
+  "packages": [
+    {
+      "attr_path": "hugo",
+      "broken": false,
+      "derivation": "/nix/store/qi23zkhmgh153s7cr2xmjqi1ykby052y-hugo-0.155.2.drv",
+      "description": "Fast and modern static website engine",
+      "install_id": "hugo",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d6c71932130818840fc8fe9509cf50be8c64634f",
+      "name": "hugo-0.155.2",
+      "pname": "hugo",
+      "rev": "d6c71932130818840fc8fe9509cf50be8c64634f",
+      "rev_count": 942779,
+      "rev_date": "2026-02-08T14:52:16Z",
+      "scrape_date": "2026-02-09T04:38:43.147024Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.155.2",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/2dgdnk2wyhpqjfab58qrwa26idl9rzql-hugo-0.155.2"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "hugo",
+      "broken": false,
+      "derivation": "/nix/store/kv6mwh7l02r2g4kscmh1dam3idj84l40-hugo-0.155.2.drv",
+      "description": "Fast and modern static website engine",
+      "install_id": "hugo",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d6c71932130818840fc8fe9509cf50be8c64634f",
+      "name": "hugo-0.155.2",
+      "pname": "hugo",
+      "rev": "d6c71932130818840fc8fe9509cf50be8c64634f",
+      "rev_count": 942779,
+      "rev_date": "2026-02-08T14:52:16Z",
+      "scrape_date": "2026-02-09T05:10:54.619944Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.155.2",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/aaramp6rfyfg0vv6zmf3g6rl0n7a6mwh-hugo-0.155.2"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "hugo",
+      "broken": false,
+      "derivation": "/nix/store/nm0djh098ljkz3nqzv4bkiccgb9bw4bi-hugo-0.155.2.drv",
+      "description": "Fast and modern static website engine",
+      "install_id": "hugo",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d6c71932130818840fc8fe9509cf50be8c64634f",
+      "name": "hugo-0.155.2",
+      "pname": "hugo",
+      "rev": "d6c71932130818840fc8fe9509cf50be8c64634f",
+      "rev_count": 942779,
+      "rev_date": "2026-02-08T14:52:16Z",
+      "scrape_date": "2026-02-09T05:44:28.586696Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.155.2",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/y8nrpj6azjj0llagd9cnqhb03bic7g7r-hugo-0.155.2"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "hugo",
+      "broken": false,
+      "derivation": "/nix/store/kinsdz3yl5kgz80zzmbz9gi3wyfncpmk-hugo-0.155.2.drv",
+      "description": "Fast and modern static website engine",
+      "install_id": "hugo",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d6c71932130818840fc8fe9509cf50be8c64634f",
+      "name": "hugo-0.155.2",
+      "pname": "hugo",
+      "rev": "d6c71932130818840fc8fe9509cf50be8c64634f",
+      "rev_count": 942779,
+      "rev_date": "2026-02-08T14:52:16Z",
+      "scrape_date": "2026-02-09T06:20:35.956415Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.155.2",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/s819ahpkala05fpw46dsjwy3qgfvv5nf-hugo-0.155.2"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    }
+  ]
+}

@@ -1,4 +1,12 @@
-public/
-resources/_gen/
-.hugo_build.lock
+# Hugo build output
+/public/
+/resources/_gen/
+
+# Hugo server lock
+/.hugo_build.lock
+
+# OS/editor
 .DS_Store
+.idea/
+.vscode/
+*.swp
