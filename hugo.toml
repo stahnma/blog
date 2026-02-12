@@ -47,7 +47,7 @@ canonifyURLs = true
   pagerSize = 10
 
 [permalinks]
-  blog = "/:filename/"
+  blog = "/:contentbasename/"
 
 [outputs]
   home = ["HTML", "RSS"]

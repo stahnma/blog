@@ -1,8 +1,8 @@
 {{ define "main" }}
-<section class="section-page">
+<section class="section-page section-page--{{ .Section }}">
   <div class="container">
     <h1 class="section-title">{{ .Title }}</h1>
-    {{ with .Content }}<div class="section-description">{{ . }}</div>{{ end }}
+    {{ with .Content }}<div class="section-description section-description--{{ $.Section }}">{{ . }}</div>{{ end }}
 
     <ul class="post-list">
       {{ range .Pages }}

@@ -23,7 +23,7 @@
   --font-body: 'Newsreader', Georgia, 'Times New Roman', serif;
   --font-mono: 'Space Mono', 'SF Mono', 'Fira Code', monospace;
 
-  --measure: 72ch;
+  --measure: 86ch;
   --space-xs: 0.25rem;
   --space-sm: 0.5rem;
   --space-md: 1rem;
@@ -446,7 +446,7 @@ main {
 .section-description {
   color: var(--color-text-muted);
   font-size: 1.1rem;
-  max-width: 55ch;
+  max-width: 86ch;
   margin-bottom: var(--space-xl);
 }
 

@@ -4,86 +4,67 @@ layout: "single"
 type: "page"
 ---
 
-<div class="resume-section">
+Michael Stahnke  
+[mastahnke@gmail.com](mailto:mastahnke@gmail.com) | 309.840.1541 | [GitHub: stahnma](https://github.com/stahnma) | [LinkedIn: mstahnke](https://www.linkedin.com/in/mstahnke)
 
-## Experience
+[Download PDF version](/resume/michael_stahnke.pdf)
 
-<div class="resume-entry">
+## Executive Summary
 
-### VP of Engineering
-<div class="resume-company">Replace With Your Company</div>
-<div class="resume-dates">20XX — Present</div>
+Technology executive and product strategist with 15+ years leading engineering and product organizations through growth and market expansion. Experienced in shaping technology vision, building high-performing global teams, and aligning product strategy with business outcomes. Trusted cross-functional executive partner across Product, Marketing, and Product-Led Growth efforts. Industry-recognized leader in DevOps and platform engineering; frequent keynote speaker and co-author of the State of DevOps Report (2018-21).
 
-- Led engineering organization through growth phase, scaling team from X to Y engineers
-- Drove product-led growth initiatives, improving activation metrics
-- Established platform engineering function to improve developer experience and deployment velocity
-- Partnered with product and marketing on go-to-market technical strategy
+## Selected Achievements
 
-</div>
+- Scaled CircleCI's engineering to 250+ engineers globally, steering platform strategy that enabled enterprise adoption and revenue growth.
+- Transformed Flox from tech-first to user-centric product engineering team, serving as interim Head of Product in addition to running engineering to define roadmap, validate features, and drive adoption.
+- Led cross-functional execution spanning Product, Marketing, and Product-Led Growth to improve adoption, activation, and conversion.
+- Guided Puppet Enterprise (90%+ of revenue) through multiple product evolutions while maintaining strong open-source community engagement.
+- Authored the State of DevOps Report (2018-21), shaping industry thinking and adoption of DevOps practices.
+- Frequent keynote speaker at global technology and leadership conferences (DevOpsDays, OSCON, Red Hat Summit, CTO CraftCon).
 
-<div class="resume-entry">
+## Executive Experience
 
-### Senior Engineering Manager
-<div class="resume-company">Replace With Previous Company</div>
-<div class="resume-dates">20XX — 20XX</div>
+### VP of Engineering / Head of Product | Flox | 2023-Present
 
-- Managed multiple engineering teams across infrastructure and product
-- Led migration to cloud-native architecture
-- Built and mentored a team of senior engineers and tech leads
-- Improved deployment frequency from weekly to multiple times per day
+Series B startup reinventing the SDLC with Nix.
 
-</div>
+- Doubled engineering team size and rebuilt org around customer value delivery.
+- Served as interim Head of Product: defined roadmap, conducted user research, authored specifications, and drove feature adoption that positioned Flox for enterprise readiness.
+- Partnered with founders to align product vision with engineering strategy, balancing innovation and reliability to accelerate go-to-market.
+- Worked to build GTM motion of Product Led and Direct Enterprise Sales, experimenting to find and hone adoption, activation, and conversion moments in the buyer journey.
+- Interim Head of Marketing for a quarter where changes increased sign-ups by 116% quarter over quarter.
 
-<div class="resume-entry">
+### VP of Engineering | CircleCI | 2019-2022
 
-### Engineering Manager
-<div class="resume-company">Replace With Company</div>
-<div class="resume-dates">20XX — 20XX</div>
+Global CI/CD SaaS platform used by thousands of enterprises.
 
-- Transitioned from IC to management, built first direct team
-- Shipped key features that drove core business metrics
-- Established engineering practices around code review, testing, and incident response
+- Expanded engineering from 9 to 250 across 9 countries (3 regions), building functions in platform, security, reliability, developer productivity, and more.
+- Directed platform strategy that improved enterprise adoption, scaling CircleCI into a market leader in CI/CD.
+- Increased gross margin from under 58% to over 68% through architectural innovation and vendor negotiation, enabling sustainable growth.
+- Improved platform availability (99.1% to 99.8%), strengthening customer trust and expanding enterprise footprint.
+- Managed over $60 million budget for payroll, tools, and cloud spend.
 
-</div>
+### Sr. Director / Director of Engineering | Puppet | 2011-2018
 
-<div class="resume-entry">
+Enterprise automation leader.
 
-### Senior Software Engineer
-<div class="resume-company">Replace With Company</div>
-<div class="resume-dates">20XX — 20XX</div>
+- Owned development of Puppet Enterprise, representing 90%+ of revenue.
+- Built and scaled Site Reliability and Platform Engineering organizations to accelerate product delivery.
+- Advanced product release model, shifting to continuous delivery practices, even for on-prem delivered software.
+- Co-authored early editions of the State of DevOps Report, solidifying Puppet's thought leadership position.
+- Drove convergence of Enterprise and Open Source Packaging/Delivery to allow for easier upsell to open source users.
 
-- Full-stack development on core product
-- Open source contributions and community engagement
-- Designed and built internal tooling that reduced operational burden
+### Caterpillar Inc. | Infrastructure Leadership Roles | 2002-2011
 
-</div>
+- Delivered automation, security, compliance, resilience, and disaster recovery practices for Caterpillar worldwide.
 
-</div>
+## Industry Influence
 
-<div class="resume-section">
-
-## Skills & Expertise
-
-**Leadership:** Engineering org design, hiring & talent development, cross-functional partnership, strategic planning, M&A technical due diligence
-
-**Technical:** Distributed systems, cloud infrastructure (AWS/GCP), CI/CD, platform engineering, observability
-
-**Growth:** Product-led growth, developer experience, self-serve onboarding, growth instrumentation, funnel optimization
-
-**Community:** Conference speaking, open source stewardship, technical writing, mentorship
-
-</div>
-
-<div class="resume-section">
+- Open Source: Founding member of EPEL (Extra Packages for Enterprise Linux); Fedora maintainer (100+ Ruby-related packages).
+- Author: Pro OpenSSH (Apress, 2005); State of DevOps Report (2018-21).
+- Speaker: Frequent keynote speaker at major industry conferences: DevOpsDays, OSCON, Velocity, CTO CraftCon, Red Hat Summit, and more.
+- Organizer: DevOpsDays Madison (2016-17), PuppetConf (2012-18).
 
 ## Education
 
-<div class="resume-entry">
-
-### B.S. Computer Science
-<div class="resume-company">Your University</div>
-<div class="resume-dates">Graduated 20XX</div>
-
-</div>
-
-</div>
+B.S., Computer Science - Ball State University
