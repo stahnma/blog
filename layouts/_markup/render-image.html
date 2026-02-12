@@ -1,0 +1,8 @@
+{{- $dest := .Destination -}}
+{{- $isRemote := or (hasPrefix $dest "http://") (hasPrefix $dest "https://") -}}
+{{- $isData := hasPrefix $dest "data:" -}}
+{{- $src := $dest -}}
+{{- if and (not $isRemote) (not $isData) -}}
+  {{- $src = relURL $dest -}}
+{{- end -}}
+<img src="{{ $src | safeURL }}" alt="{{ .Text }}"{{ with .Title }} title="{{ . }}"{{ end }}>
