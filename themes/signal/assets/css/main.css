@@ -101,8 +101,37 @@ pre {
   padding: var(--space-lg);
   border-radius: var(--radius);
   overflow-x: auto;
+  max-height: 20rem;
+  overflow-y: auto;
   margin: var(--space-lg) 0;
   border: 1px solid rgba(255,255,255,0.05);
+}
+
+.pre-scroll-wrap {
+  position: relative;
+}
+
+.pre-scroll-wrap .scroll-fade {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 3rem;
+  background: linear-gradient(transparent, #1e1e2e);
+  border-radius: 0 0 var(--radius) var(--radius);
+  pointer-events: none;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 0.4rem;
+  font-size: 0.7rem;
+  color: rgba(255,255,255,0.45);
+  font-family: var(--font-mono);
+  transition: opacity 0.3s;
+}
+
+.pre-scroll-wrap.scrolled-bottom .scroll-fade {
+  opacity: 0;
 }
 
 pre code {
