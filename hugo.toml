@@ -19,8 +19,8 @@ canonifyURLs = true
     url = "/blog/"
     weight = 1
   [[menu.main]]
-    name = "Talks"
-    url = "/talks/"
+    name = "Speaking & Media"
+    url = "/media/"
     weight = 2
   [[menu.main]]
     name = "Resume"
